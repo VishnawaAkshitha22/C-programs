@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+
+
+int main() {
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    int s,t,c,d;
+    scanf("%d%d",&s,&t);
+    c=s/t;
+    d=s%t;
+    printf("The number of students in each team is %d and left out is %d",c,d);
+    
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    return 0;
+}
