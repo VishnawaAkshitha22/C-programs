@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+
+
+int main() {
+
+    int Gold,BenS,BBS;
+
+    scanf("%d%d%d",&Gold,&BenS,&BBS);
+
+    int Bens_gold=Gold*BenS/100;
+
+    Gold = Gold - Bens_gold;
+
+    int BB_Gold=Gold * BBS/100;
+
+    Gold = Gold - BB_Gold;
+
+    int P_Gold=Gold/3;
+
+    printf("%d\n%d\n%d",Bens_gold,BB_Gold,P_Gold);   
+
+    
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    return 0;
+}
